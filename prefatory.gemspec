@@ -25,7 +25,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.add_dependency "dry-configurable", "~> 0.7.0"
 
-  spec.add_development_dependency "redis"
+  spec.add_development_dependency "redis", "~> 4.3"
+  spec.add_development_dependency "connection_pool", "~> 2.2"
   spec.add_development_dependency "dalli"
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "pry"
